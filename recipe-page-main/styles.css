@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+    background-color:#F3E5D8;
+
+}
+
+h1{
+    font-family: 'Young Serif';
+    font-size: 35px;
+    margin-top: 20px;
+}
+h2{
+    font-family: 'Young Serif';
+    color: #854632;
+    font-size: 28px;
+
+
+  }
+p{
+    font-family:'Outfit';
+    font-weight: 300px;
+    color: #5F564D;
+    
+}
+
+p, li {
+    font-family:'Outfit';
+    font-weight: 400px;
+    color: #5F564D;
+    line-height: 1.5;
+
+}
+
+li{
+    padding-left: 20px;
+    margin-bottom: 5px;
+
+}
+
+
+.preparation-time-section li::marker {
+    color: #7A284E;
+  }
+
+.container{
+    background-color: white;
+    width: 600px;
+    margin-top: 120px;
+    border-radius: 15px;
+    padding: 40px;
+    
+    /*display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;*/
+}
+
+img{
+    width: 600px;
+    height: 300px;
+    border-radius: 15px;
+
+}
+
+.recipe-section{
+    display: flex;
+    justify-content: center;
+
+}
+.recipe-image{
+    display: flex;
+    justify-content: center;
+}
+
+.preparation-time-section {
+    background-color: #FFF7FB; 
+    border-radius: 15px; 
+    padding-bottom: 16px;
+
+
+}
+
+#prep-time {
+    font-weight: 600;
+    color: #7A284E;  
+    padding-top: 25px;
+    padding-left: 40px  ;
+    font-size: 20px;
+
+}
+
+ul{
+    margin-left: 15px;
+}
+
+.ingreidents li {
+
+    list-style-type: square;
+    font-family:'Outfit';
+    font-weight: 400px;
+    color: #5F564D;
+    line-height: 1.5;
+    
+}
+
+.ingreidents li::marker {
+    color: #854632;
+  }
+.ingreidents{
+    padding: 0px;
+
+}
+
+hr {
+    color: #E3DDD7;
+    opacity: 0.3;
+    margin: 40px 0;
+
+}
+
+table{
+
+    font-family:'Outfit';
+    font-weight: 400px;
+    color: #5F564D;
+    line-height: 1.5;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+td {
+    border-bottom: 1px solid  #E3DDD7;
+    padding-bottom: 10px;
+    
+}
+    
+.food-info {
+    color: #854632;
+    font-weight: 700;
+
+}
+
+.Instructions li::marker {
+    color: #854632;
+    font-weight: 600;
+  }
+
